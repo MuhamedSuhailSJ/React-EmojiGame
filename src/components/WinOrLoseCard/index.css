@@ -1,0 +1,56 @@
+/* Write your code here. */
+.resultcardcontainer {
+  background-image: linear-gradient(#9796f0, #fbc7d4);
+  background-size: cover;
+  min-height: 88vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.resultcardelement {
+  width: 720px;
+  height: 500px;
+  background-color: #ffffff33;
+  border: 3px solid #ffffff30;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 18px;
+}
+
+.resultcardImg {
+  width: 280px;
+}
+
+.resultcard {
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+}
+
+.resultcardscored {
+  font-weight: 700;
+  font-size: 20px;
+  margin: 0;
+}
+
+.resultcardNumber {
+  color: #6a59ff;
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.resultcardButton {
+  margin-top: 10px;
+  background-color: #ffce27;
+  font-weight: 600;
+  width: 100px;
+  height: 40px;
+  border-radius: 14px;
+  border: none;
+}
